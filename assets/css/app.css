@@ -1,0 +1,165 @@
+/* *{
+    transition-duration: 0.4ms;
+} */
+body{
+    background-color: #D50F36;
+    color: #ffff;
+    padding: 0px;
+    margin:0px;
+    font-family: 'Julius Sans One';font-size: 22px;
+}
+
+.full {
+    background-image: url("../img/bnnr-full-mobil.png");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+     
+}
+.row {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+span {
+    display: block;
+    font-size: 14px;
+    width: 160px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+p{
+    font-size: 19px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+li {
+    font-size: 14px;
+}
+
+
+#sobre img {
+    width: 100%;
+}
+
+img.perfil {
+    text-align: center;
+    justify-items: center;
+    width: 70%;
+}
+
+
+#vantagens img {
+    width: 100%;
+}
+
+.banner-encomenda{
+    background-image: url("../img/bnnr/banner-encomenda-mobil.png");
+    /* background-color: #cccccc; */
+    min-height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 850px;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+}
+footer ul li {
+    font-size: 14px;
+    list-style: none;
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+footer ul {
+    margin: 0px 0px;
+    padding: 0px;
+}
+footer img {
+    width: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+footer h5 {
+    text-align: center;
+}
+
+
+
+
+
+
+@media (min-width: 759px){
+    .full {
+        background-image: url(../img/bnnr-full.png);
+        background-position: center;
+        background-repeat: unset;
+        background-size: cover;
+        height: 100vh;
+    }
+    .row {
+        padding: 50px 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    span {
+        display: block;
+        font-size: 14px;
+        width: 160px;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+
+    #vantagens li {
+        font-size: 12px;
+    }
+
+    #sobre span {
+        display: block;
+        font-size: 14px;
+        width: 160px;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+    #sobre p {
+        font-size: 12px;
+    }
+    
+    #produtos span{
+        display: block;
+        font-size: 14px;
+        width: 160px;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+
+
+
+
+    .banner-encomenda{
+        background-image: url("../img/bnnr/banner-encomenda.png");
+        /* background-color: #cccccc; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+}
+
