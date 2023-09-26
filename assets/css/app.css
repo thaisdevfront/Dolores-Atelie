@@ -80,6 +80,16 @@ img.perfil {
 footer {
     background-color: black;
 }
+footer p {
+    font-size: 8px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+a {
+    text-decoration: none;
+    color: #ffff;
+}
 footer ul li {
     font-size: 14px;
     list-style: none;
@@ -92,10 +102,12 @@ footer ul {
     padding: 0px;
 }
 footer img {
-    width: 60%;
+    width: 50%;
     display: flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    margin: 10px auto;
 }
 footer h5 {
     text-align: center;
