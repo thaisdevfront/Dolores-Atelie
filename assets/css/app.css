@@ -9,6 +9,20 @@ body{
     font-family: 'Julius Sans One';font-size: 22px;
 }
 
+ul {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+li {
+    font-size: 14px;
+}
+
+.row {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
 .full {
     background-image: url("../img/bnnr-full-mobil.png");
     background-attachment: fixed;
@@ -18,64 +32,72 @@ body{
     height: 100vh;
      
 }
-.row {
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
+
 
 span {
     display: block;
-    font-size: 14px;
-    width: 160px;
+    font-size: 12px;
+    width: 130px;
     padding-bottom: 20px;
     padding-top: 60px;
 }
-h1 {
-    font-size: 3.5rem;
+#topo h1 {
+    font-size: 3rem;
     font-weight: 500;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+}
+#topo p {
+    font-size: 16px;
+    padding-bottom: 40px;
 }
 p{
-    font-size: 19px;
+    font-size: 22px;
+    padding-bottom: 40px;
 }
 
-ul {
-    margin-top: 0px;
-    margin-bottom: 1rem;
+#vantagens h1 {
+    font-size: 3rem;
 }
-li {
-    font-size: 14px;
+#vantagens p {
+    font-size: 16px;
 }
-
-
-#sobre img {
-    width: 100%;
-}
-
-img.perfil {
-    text-align: center;
-    justify-items: center;
-    width: 70%;
-}
-
-
 #vantagens img {
     width: 100%;
+}
+
+#produto h1 {
+    font-size: 2.7rem;
 }
 
 .banner-encomenda{
     background-image: url("../img/bnnr/banner-encomenda-mobil.png");
     /* background-color: #cccccc; */
-    min-height: 750px;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 850px;
 }
 
+#sobre p {
+    font-size: 16px;
+}
+img.perfil {
+    text-align: center;
+    justify-items: center;
+    width: 70%;
+    max-width: 240px;
+    margin: 20px auto;
+}
+#sobre img {
+    width: 100%;
+}
+#sobre h1 {
+    font-size: 2.5rem;
+}
 
-
-
+#contato p {
+    font-size: 16px;
+}
 
 footer {
     background-color: black;
@@ -115,19 +137,15 @@ footer h5 {
 
 
 
-
-
-
 @media (min-width: 759px){
     .full {
         background-image: url(../img/bnnr-full.png);
-        background-position: center;
+        background-position: bottom;
         background-repeat: unset;
         background-size: cover;
         height: 100vh;
     }
     .row {
-        padding: 50px 10px;
         justify-content: center;
         align-items: center;
     }
@@ -157,11 +175,33 @@ footer h5 {
     #produtos span{
         display: block;
         font-size: 14px;
-        width: 160px;
+        width: 150px;
         padding-bottom: 20px;
         padding-top: 0px;
     }
 
+    h1 {
+        font-size: 3rem;
+    }
+    #contato p {
+        font-size: 16px;
+    }
+
+    #produtos h1 {
+        font-size: 2.5rem;
+        width: 280px;
+    }
+    #produtos p {
+        font-size: 19px;
+        width: 250px;
+    }
+
+    #contato .col-md-5{
+        text-align: center;
+    }
+    #contato .offset-md-2.col-md-4 {
+        text-align: center;
+    }
 
 
 
@@ -170,7 +210,7 @@ footer h5 {
         /* background-color: #cccccc; */
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         
     }
 }
