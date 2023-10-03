@@ -27,15 +27,6 @@ form input {
     border: 0px;
     border-radius: 50px;
 }
-/* form input {
-    background-color: #F5F5F5;
-    padding: 13px;
-    width: 100%;
-    margin: 5px 0px;
-    border: 0px;
-    border-radius: 50px;
-} */
-
 .msg{
     background-color: #F5F5F5;
     padding: 7px;
@@ -44,23 +35,6 @@ form input {
     border-radius: 12px;
 }
 
-/* 
-.msg{
-    width: 100%;
-    height: 50px;
-    border-radius: 50px;
-    box-shadow: none;
-    border: 1px solid #ffffff;
-    margin: 5px auto;
-    display: block;
-    padding-left: 15px;
-    text-transform: uppercase;
-    font-weight: 600;
-    background-color: #ffffff;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 1rem;
-} */
 form button {
     display: block;
     margin: 15px auto;
